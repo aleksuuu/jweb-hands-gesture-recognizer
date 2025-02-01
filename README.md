@@ -21,6 +21,12 @@ The Gesture classification model bundle can recognize these common hand gestures
 7 - Love, label: ILoveYou
 ```
 
+In addition, there are two gestures hard-coded in:
+
+```
+8 - Three fingers, label: Three
+9 - Four fingers, label: Four
+
 The hand landmark model bundle detects the keypoint localization of 21 hand-knuckle coordinates within the detected hand regions. The model was trained on approximately 30K real-world images, as well as several rendered synthetic hand models imposed over various backgrounds.
 
 ![Handlandmarks diagram](hand-landmarks.png)
